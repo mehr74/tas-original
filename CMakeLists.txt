@@ -11,6 +11,7 @@ SET(DPDK_LIBS2 "-lm -pthread -lrt -lnuma \
 
 add_executable(tas_original
     tas/tas.c
+    tas/shm.c
     tas/config.c
     tas/blocking.c
     tas/slow/kernel.c
