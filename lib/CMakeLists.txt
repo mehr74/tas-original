@@ -39,5 +39,5 @@ include_directories(
         tas/include/
     )
 
-target_link_libraries(tas_sockets rt dl)
-target_link_libraries(tas_interpose rt dl)
+target_link_libraries(tas_original_sockets rt dl)
+target_link_libraries(tas_original_interpose rt dl)
